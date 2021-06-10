@@ -27,6 +27,7 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'lib'),
+    libraryTarget: 'commonjs',
   },
   target: 'es6',
 };
