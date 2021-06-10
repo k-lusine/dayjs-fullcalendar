@@ -2,6 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: './src/main.ts',
+  mode: 'production',
   module: {
     rules: [
       {
@@ -27,4 +28,5 @@ module.exports = {
     filename: 'main.js',
     path: path.resolve(__dirname, 'lib'),
   },
+  target: 'es6',
 };
