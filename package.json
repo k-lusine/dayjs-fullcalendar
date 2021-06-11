@@ -16,10 +16,12 @@
   },
   "peerDependencies": {
     "@fullcalendar/common": "5.7.2",
+    "@fullcalendar/core": "5.7.2",
     "dayjs": "^1.5.2"
   },
   "devDependencies": {
     "@fullcalendar/common": "5.7.2",
+    "@fullcalendar/core": "5.7.2",
     "dayjs": "^1.5.2",
     "webpack-cli": "^4.7.2"
   },
